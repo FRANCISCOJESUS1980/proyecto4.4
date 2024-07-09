@@ -1,0 +1,72 @@
+.card {
+  padding: 1em;
+  background-color: var(--bg-card-color);
+  border-radius: var(--border-radius);
+}
+.card--hobbies {
+  border: 2px solid var(--primary-color);
+  margin-top: 10px;
+  border-radius: var(--border-radius);
+}
+.card__image {
+  height: 100%;
+}
+.card__image-container {
+  min-width: 320px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+.card__header {
+  padding: 1em 0;
+}
+.card__title {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+.hobbie__title {
+  margin-left: 5px;
+}
+.card__subtitle {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.card__link {
+  margin-bottom: 0.5em;
+}
+.card__text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 5px;
+}
+.experience {
+  display: flex;
+  align-items: start;
+  margin-bottom: 1em;
+  padding: 1em;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+.experience__image {
+  max-width: 15%;
+  margin-right: 1em;
+}
+.experience__time {
+  font-size: 0.8rem;
+  margin-bottom: 0.5em;
+}
+.experience__job {
+  margin: 0;
+  margin-bottom: 0.5em;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+.experience__description {
+  font-size: 0.8rem;
+  margin-bottom: 1.5em;
+}
+.main {
+  display: grid;
+  padding: 2em;
+  gap: 0.5em;
+}
